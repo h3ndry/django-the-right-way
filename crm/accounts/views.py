@@ -13,4 +13,4 @@ def products(request):
 
 
 def customers(request):
-    return render(request, 'accounts/customers.html')
+    return render(request, 'accounts/customer.html')
